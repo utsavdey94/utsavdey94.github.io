@@ -11,8 +11,6 @@ location: "Ames, Iowa, USA"
 ### Overview
 I have **over 4 years of teaching and student mentorship experience** in **chemistry and materials science**, collaborating with faculty to develop lecture notes, demonstration videos, and lab modules that foster **critical thinking, technical competency, and rigorous laboratory practice**.
 
----
-
 ### 🧪 Graduate & Undergraduate Lab Instruction (MSE 453 / MSE 553)
 **Role:** Graduate Teaching Assistant  
 **Responsibilities:**
