@@ -4,7 +4,7 @@ collection: teaching
 type: "Lecture and Laboratory"
 permalink: /teaching/2019-2022-general-chemistry
 venue: "Department of Chemistry, Iowa State University"
-date: 2019 to 2022
+date: 2022
 location: "Ames, Iowa"
 ---
 
