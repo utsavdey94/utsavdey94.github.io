@@ -7,6 +7,7 @@ excerpt: "A review of low-temperature sintering inks and curing strategies for p
 date: 2026-04-03
 venue: "Biosensors"
 paperurl: "/files/UtsavDey_Biosensors.pdf"
+doiurl: "https://doi.org/10.3390/bios16040206"
 citation: 'Abhijit Bera, Fei Liu, Matthew R. Marander, Ricardo Ortega, Ahmad Mustafa Ahmad Malkawi, <strong>Utsav Kumar Dey</strong>, Ritinder Sandhu, Tyler P. Collins, and Shan Jiang. (2026). "Low-Temperature Sintering Inks for Printed Bioelectronics: Materials, Mechanisms, and Emerging Ideas." <i>Biosensors</i>, 16, 206.'
 ---
 
