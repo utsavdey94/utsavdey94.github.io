@@ -9,3 +9,4 @@ location: "Bangalore, India"
 ---
 
 Participated in the **Summer School in Semiconductor Technology** at the Indian Institute of Science (IISc), Bangalore.
+
