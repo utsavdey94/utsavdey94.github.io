@@ -507,3 +507,96 @@ html[data-theme="dark"]
 .archive__item:has(a[href*="/publication/"]) .archive__item-title a:hover {
   color: #93c5fd;
 }
+
+/* ==========================================================================
+   CV — PROFESSIONAL SECTION STYLE
+   ========================================================================== */
+
+/* CV page title */
+body:has(a[href="/cv/"]) .page__title {
+  color: #c2410c;
+}
+
+/* CV section headings */
+body:has(a[href="/cv/"]) .page__content h2 {
+  color: #c2410c;
+  border-bottom: 1px solid var(--global-border-color);
+  padding-left: 14px;
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+}
+
+/* Orange accent bar */
+body:has(a[href="/cv/"]) .page__content h2::before {
+  background: #ea580c;
+}
+
+/* CV links */
+body:has(a[href="/cv/"]) .page__content a {
+  color: #c2410c;
+  font-weight: 600;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+body:has(a[href="/cv/"]) .page__content a:hover {
+  color: #9a3412;
+  text-decoration: none;
+}
+
+/* Slightly cleaner list spacing */
+body:has(a[href="/cv/"]) .page__content li {
+  margin-bottom: 0.35rem;
+}
+
+/* Request CV link/button */
+body:has(a[href="/cv/"]) .page__content a[href^="mailto:"] {
+  display: inline-block;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid #c2410c;
+  border-radius: 6px;
+  color: #c2410c;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+body:has(a[href="/cv/"]) .page__content a[href^="mailto:"]:hover {
+  background: #c2410c;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* Dark mode */
+html[data-theme="dark"]
+body:has(a[href="/cv/"]) .page__title,
+html[data-theme="dark"]
+body:has(a[href="/cv/"]) .page__content h2 {
+  color: #fb923c;
+}
+
+html[data-theme="dark"]
+body:has(a[href="/cv/"]) .page__content a {
+  color: #fb923c;
+}
+
+html[data-theme="dark"]
+body:has(a[href="/cv/"]) .page__content a:hover {
+  color: #fdba74;
+}
+
+html[data-theme="dark"]
+body:has(a[href="/cv/"]) .page__content a[href^="mailto:"] {
+  border-color: #fb923c;
+  color: #fb923c;
+}
+
+html[data-theme="dark"]
+body:has(a[href="/cv/"]) .page__content a[href^="mailto:"]:hover {
+  background: #fb923c;
+  color: #0f172a;
+}
