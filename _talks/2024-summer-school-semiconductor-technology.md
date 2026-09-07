@@ -4,7 +4,7 @@ collection: talks
 type: "Workshop"
 permalink: /talks/2024-summer-school-semiconductor-technology
 venue: "Indian Institute of Science (IISc)"
-date: 2024-01-01
+date: 2024-06-14
 location: "Bangalore, India"
 ---
 
