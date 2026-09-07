@@ -9,3 +9,4 @@ location: "Indianapolis, Indiana"
 ---
 
 Poster presentation at the **American Coatings Show and Conference 2026**.
+
