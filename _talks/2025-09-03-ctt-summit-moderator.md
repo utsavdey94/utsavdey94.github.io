@@ -8,5 +8,3 @@ date: 2025-09-03
 location: "Lombard, Illinois"
 ---
 
-Served as an **Invited Session Moderator** at the Coatings Trends & Technologies Summit 2025.
-
