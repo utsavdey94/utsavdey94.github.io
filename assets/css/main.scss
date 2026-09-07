@@ -513,12 +513,13 @@ html[data-theme="dark"]
    ========================================================================== */
 
 /* CV page title */
-body:has(a[href="/cv/"]) .page__title {
+body.cv-page .page__title {
   color: #c2410c;
 }
 
 /* CV section headings */
-body:has(a[href="/cv/"]) .page__content h2 {
+body.cv-page .page__content h2 {
+  position: relative;
   color: #c2410c;
   border-bottom: 1px solid var(--global-border-color);
   padding-left: 14px;
@@ -527,12 +528,19 @@ body:has(a[href="/cv/"]) .page__content h2 {
 }
 
 /* Orange accent bar */
-body:has(a[href="/cv/"]) .page__content h2::before {
+body.cv-page .page__content h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.18em;
+  bottom: 0.18em;
+  width: 4px;
+  border-radius: 3px;
   background: #ea580c;
 }
 
 /* CV links */
-body:has(a[href="/cv/"]) .page__content a {
+body.cv-page .page__content a {
   color: #c2410c;
   font-weight: 600;
   transition:
@@ -540,20 +548,25 @@ body:has(a[href="/cv/"]) .page__content a {
     transform 0.2s ease;
 }
 
-body:has(a[href="/cv/"]) .page__content a:hover {
+body.cv-page .page__content a:hover {
   color: #9a3412;
   text-decoration: none;
 }
 
-/* Slightly cleaner list spacing */
-body:has(a[href="/cv/"]) .page__content li {
+/* Cleaner paragraph spacing */
+body.cv-page .page__content p {
+  line-height: 1.65;
+}
+
+/* Cleaner list spacing */
+body.cv-page .page__content li {
   margin-bottom: 0.35rem;
 }
 
-/* Request CV link/button */
-body:has(a[href="/cv/"]) .page__content a[href^="mailto:"] {
+/* Request Full CV by Email button */
+body.cv-page .page__content a[href^="mailto:"] {
   display: inline-block;
-  padding: 0.45rem 0.85rem;
+  padding: 0.48rem 0.9rem;
   border: 1px solid #c2410c;
   border-radius: 6px;
   color: #c2410c;
@@ -562,45 +575,50 @@ body:has(a[href="/cv/"]) .page__content a[href^="mailto:"] {
   transition:
     background-color 0.2s ease,
     color 0.2s ease,
-    transform 0.2s ease;
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-body:has(a[href="/cv/"]) .page__content a[href^="mailto:"]:hover {
+body.cv-page .page__content a[href^="mailto:"]:hover {
   background: #c2410c;
   color: #fff;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(194, 65, 12, 0.18);
 }
 
-/* Dark mode */
-html[data-theme="dark"]
-body:has(a[href="/cv/"]) .page__title,
-html[data-theme="dark"]
-body:has(a[href="/cv/"]) .page__content h2 {
+
+/* ==========================================================================
+   CV — DARK MODE
+   ========================================================================== */
+
+html[data-theme="dark"] body.cv-page .page__title,
+html[data-theme="dark"] body.cv-page .page__content h2 {
   color: #fb923c;
 }
 
-html[data-theme="dark"]
-body:has(a[href="/cv/"]) .page__content a {
+html[data-theme="dark"] body.cv-page .page__content h2::before {
+  background: #fb923c;
+}
+
+html[data-theme="dark"] body.cv-page .page__content a {
   color: #fb923c;
 }
 
-html[data-theme="dark"]
-body:has(a[href="/cv/"]) .page__content a:hover {
+html[data-theme="dark"] body.cv-page .page__content a:hover {
   color: #fdba74;
 }
 
 html[data-theme="dark"]
-body:has(a[href="/cv/"]) .page__content a[href^="mailto:"] {
+body.cv-page .page__content a[href^="mailto:"] {
   border-color: #fb923c;
   color: #fb923c;
 }
 
 html[data-theme="dark"]
-body:has(a[href="/cv/"]) .page__content a[href^="mailto:"]:hover {
+body.cv-page .page__content a[href^="mailto:"]:hover {
   background: #fb923c;
   color: #0f172a;
 }
-
 /* ==========================================================================
    MASTHEAD / TOP NAVIGATION — PROFESSIONAL POLISH
    ========================================================================== */
