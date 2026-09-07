@@ -7,6 +7,3 @@ venue: "Indian Institute of Science (IISc)"
 date: 2024-06-14
 location: "Bangalore, India"
 ---
-
-Participated in the **Summer School in Semiconductor Technology** at the Indian Institute of Science (IISc), Bangalore.
-
