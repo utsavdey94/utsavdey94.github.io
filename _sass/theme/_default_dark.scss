@@ -1,54 +1,77 @@
 /* ==========================================================================
-   DARK THEME
+   DARK THEME — CUSTOM PROFESSIONAL PALETTE
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+/* Base neutral colors */
+$gray                       : #94a3b8;
+$dark-gray                  : #64748b;
+$darker-gray                : #334155;
+$light-gray                 : #cbd5e1;
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+/* Dark surfaces */
+$background                 : #0f172a;
+$background-light           : #1e293b;
+$background-lighter         : #334155;
 
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+/* Text */
+$text                       : #e5e7eb;
 
-/* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+/* Links */
+$link                       : #38bdf8;
+$link-dark                  : #0ea5e9;
+$link-light                 : #7dd3fc;
+
+/* Semantic colors */
+$danger-color               : #f87171;
+$info-color                 : #22d3ee;
+$notice-color               : #94a3b8;
+$success-color              : #4ade80;
+$warning-color              : #fbbf24;
+
+/* Template settings */
+$border-radius              : 6px;
+$box-shadow                 : 0 2px 8px rgba(0, 0, 0, 0.30);
+$global-transition          : all 0.25s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/* Dark theme */
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
+
+    /* Main background */
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
+
+    /* Footer */
+    --global-footer-bg-color            : #0b1220;
+
+    /* Borders */
+    --global-border-color               : #334155;
+    --global-dark-border-color          : #475569;
+
+    /* Code */
+    --global-code-background-color      : #111827;
+    --global-code-text-color            : #e2e8f0;
+
+    /* Captions */
+    --global-fig-caption-color          : #94a3b8;
+
+    /* Links */
     --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-link-color-hover           : #{$link-light};
+    --global-link-color-visited         : #a5b4fc;
+
+    /* Navigation */
+    --global-masthead-link-color        : #f8fafc;
+    --global-masthead-link-color-hover  : #67e8f9;
+
+    /* Text */
+    --global-text-color                 : #e5e7eb;
+    --global-text-color-light           : #cbd5e1;
+
+    /* Tables */
+    --global-thead-color                : #1e293b;
 }
