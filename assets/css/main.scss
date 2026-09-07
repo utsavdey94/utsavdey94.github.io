@@ -46,11 +46,6 @@
    CUSTOM SITE ACCENTS
    ========================================================================== */
 
-.greedy-nav a:hover::after,
-.masthead__menu-item a:hover::after {
-  width: 100%;
-}
-
 /* ---------- Homepage section headings ---------- */
 
 .page__content h2 {
@@ -250,34 +245,41 @@ body:has(a[href="/cv/"]) .page__title {
    NAVIGATION INTERACTION
    ========================================================================== */
 
+/* Remove any underline pseudo-elements inherited from earlier custom rules */
+.greedy-nav .visible-links a::before,
+.greedy-nav .visible-links a::after,
+.masthead__menu-item a::before,
+.masthead__menu-item a::after {
+  content: none !important;
+}
+
+/* Put the underline on the list item instead */
 .greedy-nav .visible-links li {
   position: relative;
 }
 
-.greedy-nav .visible-links a {
-  position: relative;
-  display: inline-block;
-  padding-bottom: 6px;
-  transition: color 0.25s ease;
-}
-
-.greedy-nav .visible-links a::after {
+.greedy-nav .visible-links li::after {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 50%;
+  bottom: 4px;
   width: 0;
   height: 2px;
   background: #0f9d9a;
+  transform: translateX(-50%);
   transition: width 0.25s ease;
+}
+
+.greedy-nav .visible-links li:hover::after {
+  width: calc(100% - 2em);
+}
+
+.greedy-nav .visible-links a {
+  transition: color 0.25s ease;
 }
 
 .greedy-nav .visible-links a:hover {
   color: #0f9d9a;
-}
-
-.greedy-nav .visible-links a:hover::after {
-  width: 100%;
 }
 
 /* ==========================================================================
