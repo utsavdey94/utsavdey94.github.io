@@ -265,3 +265,32 @@ body:has(a[href="/cv/"]) .page__title {
     color 0.2s ease,
     transform 0.2s ease;
 }
+
+/* ==========================================================================
+   NAVIGATION INTERACTION
+   ========================================================================== */
+
+.greedy-nav .visible-links a {
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+.greedy-nav .visible-links a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: #0f9d9a;
+  transform: translateX(-50%);
+  transition: width 0.25s ease;
+}
+
+.greedy-nav .visible-links a:hover {
+  color: #0f9d9a;
+}
+
+.greedy-nav .visible-links a:hover::before {
+  width: 100%;
+}
