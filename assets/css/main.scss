@@ -321,6 +321,88 @@ body:has(a[href="/cv/"]) .page__title {
     box-shadow 0.25s ease;
 }
 
+/* ==========================================================================
+   PUBLICATIONS — MODERN CARD STYLE
+   ========================================================================== */
+
+/* Publication cards only */
+.archive__item:has(a[href*="/publication/"]) {
+  border-left: 4px solid #2563eb;
+  border-radius: 8px;
+  padding: 0.9rem 1.05rem;
+  margin-bottom: 0.85rem;
+  background: transparent;
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    background-color 0.22s ease;
+}
+
+/* Card hover */
+.archive__item:has(a[href*="/publication/"]):hover {
+  transform: translateY(-3px);
+  background: rgba(37, 99, 235, 0.035);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.10);
+}
+
+/* Publication titles */
+.archive__item:has(a[href*="/publication/"]) .archive__item-title a {
+  color: #2563eb;
+  transition: color 0.2s ease;
+}
+
+.archive__item:has(a[href*="/publication/"]) .archive__item-title a:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+/* DOI / PDF link area */
+.archive__item:has(a[href*="/publication/"]) .archive__item-links {
+  margin-top: 0.55rem;
+}
+
+/* DOI and PDF as compact buttons */
+.archive__item:has(a[href*="/publication/"]) .archive__item-links a {
+  display: inline-block;
+  padding: 0.28rem 0.65rem;
+  border: 1px solid #2563eb;
+  border-radius: 5px;
+  color: #2563eb;
+  font-size: 0.88em;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.archive__item:has(a[href*="/publication/"]) .archive__item-links a:hover {
+  background: #2563eb;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* First Author / Co-First Author / Front Cover labels */
+.archive__item:has(a[href*="/publication/"])
+  .archive__item-title + p strong {
+  display: inline-block;
+  padding: 0.12rem 0.45rem;
+  margin-left: 0.15rem;
+  border-radius: 999px;
+  background: rgba(202, 138, 4, 0.12);
+  color: #a16207;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+/* Better spacing inside cards */
+.archive__item:has(a[href*="/publication/"]) p {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
 .author__avatar img:hover {
   transform: scale(1.035);
   box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16);
