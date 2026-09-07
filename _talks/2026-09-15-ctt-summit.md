@@ -9,3 +9,4 @@ location: "Lombard, Illinois"
 ---
 
 Poster presentation at the **Coatings Trends & Technologies Summit 2026**.
+
