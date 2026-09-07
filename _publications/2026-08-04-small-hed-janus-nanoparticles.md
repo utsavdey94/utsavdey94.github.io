@@ -7,6 +7,8 @@ excerpt: "A one-pot hybrid emulsion-dispersion polymerization strategy for scala
 date: 2026-08-04
 venue: "Small"
 paperurl: "/files/UtsavDey_Small.pdf"
+doiurl: "https://doi.org/10.1002/smll.75226"
+note: "First Author · Front Cover"
 citation: '<strong>Utsav Kumar Dey</strong>, Ricardo Ortega, Serkan Demirci, Yifan Li, Fei Liu, Zhengtao Yang, Tiago Twedt, Prabhdeesh Singh, Juan-Carlos Mora-Diaz, Nubia Resende De Macedo, Luis G. Gimenez-Lirola, and Shan Jiang. (2026). "Hybrid Emulsion-Dispersion (HED) Polymerization Enables One-Pot Synthesis of Functional Janus Nanoparticles." <i>Small</i>. e75226.'
 ---
 
