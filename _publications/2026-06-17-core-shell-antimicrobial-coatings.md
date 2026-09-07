@@ -6,6 +6,7 @@ permalink: /publication/2026-06-17-core-shell-antimicrobial-coatings
 excerpt: "Core–shell polymer nanoparticles designed as efficient and rechargeable antimicrobial additives for waterborne coatings, enabling reduced hydantoin usage while maintaining high antibacterial efficacy."
 date: 2026-06-17
 venue: "ACS Applied Materials & Interfaces"
+doiurl: "https://doi.org/10.1021/acsami.6c05097"
 citation: 'Ricardo Ortega, Zhengtao Yang, Serkan Demirci, Tiago A. Twedt, <strong>Utsav Kumar Dey</strong>, Fei Liu, Thamer Sabri M. Rawah, Nubia Resende De Macedo, Juan-Carlos Mora-Diaz, Luis G. Gimenez-Lirola, and Shan Jiang. (2026). "Core–Shell Nanoparticle Additive Enables High-Efficacy Antimicrobial Coatings." <i>ACS Applied Materials & Interfaces</i>, 18, 35959–35969.'
 ---
 
