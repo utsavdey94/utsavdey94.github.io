@@ -7,6 +7,7 @@ excerpt: "A comprehensive review of recent advances in Janus particle synthesis 
 date: 2024-11-01
 venue: "Nanoscale"
 paperurl: "/files/UtsavDey_Nanoscale.pdf"
+doiurl: "https://doi.org/10.1039/D4NR03652B"
 citation: 'Yifan Li, Fei Liu, Serkan Demirci, <strong>Utsav Kumar Dey</strong>, Thamer Rawah, Aneeba Chaudary, Ricardo Ortega, Zhengtao Yang, Emad Pirhadi, Bingrui Huang, Xin Yong, and Shan Jiang. (2025). "Two Sides of the Coin: Synthesis and Applications of Janus Particles." <i>Nanoscale</i>, 17, 88–112.'
 ---
 
