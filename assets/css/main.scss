@@ -202,3 +202,66 @@ body .archive__item:has(a[href*="/teaching/"]) {
 html[data-theme="dark"] .archive__item:hover {
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.35);
 }
+
+/* ==========================================================================
+   PAGE-SPECIFIC ACCENTS
+   ========================================================================== */
+
+/* About */
+body:has(a[href="/"].active),
+body:has(.page__title:nth-child(1)) {
+  --page-accent: #0f8b8d;
+}
+
+/* Publications */
+body:has(a[href="/publications/"]) .page__title,
+body:has(a[href="/publications/"]) .archive__item-title a {
+  color: #2563eb;
+}
+
+/* Presentations */
+body:has(a[href="/talks/"]) .page__title,
+body:has(a[href="/talks/"]) .archive__item-title a {
+  color: #7c3aed;
+}
+
+/* Teaching */
+body:has(a[href="/teaching/"]) .page__title,
+body:has(a[href="/teaching/"]) .archive__item-title a {
+  color: #15803d;
+}
+
+/* CV */
+body:has(a[href="/cv/"]) .page__title {
+  color: #c2410c;
+}
+
+/* Section headings */
+.page__content h2 {
+  border-bottom: 1px solid var(--global-border-color);
+  padding-bottom: 0.35rem;
+}
+
+/* Selected Highlights */
+.page__content h2:nth-of-type(2)::before {
+  background: #ca8a04;
+}
+
+/* Stronger archive hover interaction */
+.archive__item:hover .archive__item-title a {
+  text-decoration: none;
+}
+
+/* Publication links */
+.archive__item a[href*="doi.org"]:hover,
+.archive__item a[href$=".pdf"]:hover {
+  text-decoration: underline;
+}
+
+/* Smooth page title transition */
+.page__title,
+.archive__item-title a {
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
