@@ -1,22 +1,42 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Chemistry and Physics of Materials (ChemPhysMat) International Conference 2019<br />Chemistry and Physics of Materials (ChemPhysMat) International Conference; Bangalore, India",
+    12.9767936,
+    77.590082
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "American Chemical Society (ACS) Spring Meeting 2026<br />American Chemical Society; Atlanta, Georgia",
+    33.7544657,
+    -84.3898151
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Coatings Trends & Technologies Summit 2025<br />Coatings Trends & Technologies Summit; Lombard, Illinois",
+    41.8864687,
+    -88.0201536
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "American Coatings Show and Conference 2026<br />American Coatings Show and Conference; Indianapolis, Indiana",
+    39.7683331,
+    -86.1583502
+  ],
+  [
+    "Coatings Trends & Technologies Summit 2026<br />Coatings Trends & Technologies Summit; Lombard, Illinois",
+    41.8864687,
+    -88.0201536
+  ],
+  [
+    "International Conference on Materials for Advanced Technologies (ICMAT) 2019<br />Materials Research Society (MRS); Singapore",
+    1.357107,
+    103.8194992
+  ],
+  [
+    "Summer School in Semiconductor Technology 2024<br />Indian Institute of Science (IISc); Bangalore, India",
+    12.9767936,
+    77.590082
+  ],
+  [
+    "American Chemical Society (ACS) Fall Meeting 2026<br />American Chemical Society; Chicago, Illinois",
+    41.8755616,
+    -87.6244212
   ]
 ];
