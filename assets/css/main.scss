@@ -325,28 +325,24 @@ body:has(a[href="/cv/"]) .page__title {
    PUBLICATIONS — MODERN CARD STYLE
    ========================================================================== */
 
-/* Publication cards only */
 .archive__item:has(a[href*="/publication/"]) {
   border-left: 4px solid #2563eb;
   border-radius: 8px;
   padding: 0.9rem 1.05rem;
   margin-bottom: 0.85rem;
   background: transparent;
-
   transition:
     transform 0.22s ease,
     box-shadow 0.22s ease,
     background-color 0.22s ease;
 }
 
-/* Card hover */
 .archive__item:has(a[href*="/publication/"]):hover {
   transform: translateY(-3px);
-  background: rgba(37, 99, 235, 0.035);
+  background: rgba(37, 99, 235, 0.04);
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.10);
 }
 
-/* Publication titles */
 .archive__item:has(a[href*="/publication/"]) .archive__item-title a {
   color: #2563eb;
   transition: color 0.2s ease;
@@ -357,12 +353,10 @@ body:has(a[href="/cv/"]) .page__title {
   text-decoration: none;
 }
 
-/* DOI / PDF link area */
 .archive__item:has(a[href*="/publication/"]) .archive__item-links {
   margin-top: 0.55rem;
 }
 
-/* DOI and PDF as compact buttons */
 .archive__item:has(a[href*="/publication/"]) .archive__item-links a {
   display: inline-block;
   padding: 0.28rem 0.65rem;
@@ -372,7 +366,6 @@ body:has(a[href="/cv/"]) .page__title {
   font-size: 0.88em;
   font-weight: 600;
   text-decoration: none;
-
   transition:
     background-color 0.2s ease,
     color 0.2s ease,
@@ -385,7 +378,6 @@ body:has(a[href="/cv/"]) .page__title {
   transform: translateY(-1px);
 }
 
-/* First Author / Co-First Author / Front Cover labels */
 .archive__item:has(a[href*="/publication/"])
   .archive__item-title + p strong {
   display: inline-block;
@@ -398,12 +390,24 @@ body:has(a[href="/cv/"]) .page__title {
   font-weight: 700;
 }
 
-/* Better spacing inside cards */
 .archive__item:has(a[href*="/publication/"]) p {
   margin-top: 0.35rem;
   margin-bottom: 0.35rem;
 }
-.author__avatar img:hover {
-  transform: scale(1.035);
-  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16);
+
+/* Dark-mode publication refinements */
+html[data-theme="dark"]
+.archive__item:has(a[href*="/publication/"]):hover {
+  background: rgba(56, 189, 248, 0.06);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"]
+.archive__item:has(a[href*="/publication/"]) .archive__item-title a {
+  color: #60a5fa;
+}
+
+html[data-theme="dark"]
+.archive__item:has(a[href*="/publication/"]) .archive__item-title a:hover {
+  color: #93c5fd;
 }
