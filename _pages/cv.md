@@ -9,21 +9,21 @@ redirect_from:
 
 ## Professional Summary
 
-Materials scientist with a Ph.D. in Materials Science and Engineering and more than nine years of research experience spanning polymer science, functional coatings, thin films, semiconductor processing, electrochemistry, and advanced materials. Experienced in materials synthesis, process development, advanced characterization, scale-up, troubleshooting, and establishing structure–property relationships across academic, industrial, and translational R&D environments.
+Materials scientist with a Ph.D. in Materials Science and Engineering and more than nine years of research experience spanning polymer science, functional coatings, thin films, semiconductor processing, electrochemistry, and advanced materials. Experienced in materials synthesis, process development, advanced characterization, scale-up, troubleshooting, and establishing structure-property relationships across academic, industrial, and translational R&D environments.
 
 ## Education
 
 **Ph.D., Materials Science and Engineering**  
-Iowa State University, 2022-2025
+Iowa State University, 2022 – 2025
 
 **M.S., Inorganic Chemistry**  
-Iowa State University, 2019-2021
+Iowa State University, 2019 – 2021
 
 **M.Sc., Chemistry**  
-Banaras Hindu University, 2015-2017
+Banaras Hindu University, 2015 – 2017
 
 **B.Sc., Chemistry**  
-St. Xavier's College, Kolkata, 2012-2015
+St. Xavier's College, Kolkata, 2012 – 2015
 
 ## Research & Professional Experience
 
