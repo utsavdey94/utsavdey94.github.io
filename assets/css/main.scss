@@ -46,26 +46,6 @@
    CUSTOM SITE ACCENTS
    ========================================================================== */
 
-/* ---------- Navigation hover effect ---------- */
-
-.greedy-nav a,
-.masthead__menu-item a {
-  position: relative;
-  transition: color 0.25s ease;
-}
-
-.greedy-nav a::after,
-.masthead__menu-item a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0;
-  height: 2px;
-  background: #0f8b8d;
-  transition: width 0.25s ease;
-}
-
 .greedy-nav a:hover::after,
 .masthead__menu-item a:hover::after {
   width: 100%;
@@ -270,20 +250,25 @@ body:has(a[href="/cv/"]) .page__title {
    NAVIGATION INTERACTION
    ========================================================================== */
 
+.greedy-nav .visible-links li {
+  position: relative;
+}
+
 .greedy-nav .visible-links a {
   position: relative;
+  display: inline-block;
+  padding-bottom: 6px;
   transition: color 0.25s ease;
 }
 
-.greedy-nav .visible-links a::before {
+.greedy-nav .visible-links a::after {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 0;
   bottom: 0;
   width: 0;
-  height: 3px;
+  height: 2px;
   background: #0f9d9a;
-  transform: translateX(-50%);
   transition: width 0.25s ease;
 }
 
@@ -291,7 +276,7 @@ body:has(a[href="/cv/"]) .page__title {
   color: #0f9d9a;
 }
 
-.greedy-nav .visible-links a:hover::before {
+.greedy-nav .visible-links a:hover::after {
   width: 100%;
 }
 
