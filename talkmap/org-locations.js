@@ -25,6 +25,11 @@ var addressPoints = [
     -88.0201536
   ],
   [
+    "American Chemical Society (ACS) Fall Meeting 2026<br />American Chemical Society; Chicago, Illinois",
+    41.8755616,
+    -87.6244212
+  ],
+  [
     "International Conference on Materials for Advanced Technologies (ICMAT) 2019<br />Materials Research Society (MRS); Singapore",
     1.357107,
     103.8194992
@@ -33,10 +38,5 @@ var addressPoints = [
     "Summer School in Semiconductor Technology 2024<br />Indian Institute of Science (IISc); Bangalore, India",
     12.9767936,
     77.590082
-  ],
-  [
-    "American Chemical Society (ACS) Fall Meeting 2026<br />American Chemical Society; Chicago, Illinois",
-    41.8755616,
-    -87.6244212
   ]
 ];
