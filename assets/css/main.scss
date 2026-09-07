@@ -294,3 +294,47 @@ body:has(a[href="/cv/"]) .page__title {
 .greedy-nav .visible-links a:hover::before {
   width: 100%;
 }
+
+/* ==========================================================================
+   SIDEBAR INTERACTIONS
+   ========================================================================== */
+
+.author__urls a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.author__urls a:hover {
+  color: #0f8b8d;
+  transform: translateX(4px);
+  text-decoration: none;
+}
+
+/* Subtle hover motion for sidebar icons */
+.author__urls a i,
+.author__urls a svg {
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.author__urls a:hover i,
+.author__urls a:hover svg {
+  transform: scale(1.12);
+}
+
+/* Profile image interaction */
+.author__avatar img {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.035);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16);
+}
