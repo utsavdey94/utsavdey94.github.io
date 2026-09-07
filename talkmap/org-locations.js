@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "American Coatings Show and Conference 2026<br />American Coatings Show and Conference; Indianapolis, Indiana",
+    39.7683331,
+    -86.1583502
+  ],
+  [
     "Chemistry and Physics of Materials (ChemPhysMat) International Conference 2019<br />Chemistry and Physics of Materials (ChemPhysMat) International Conference; Bangalore, India",
     12.9767936,
     77.590082
@@ -13,11 +18,6 @@ var addressPoints = [
     "Coatings Trends & Technologies Summit 2025<br />Coatings Trends & Technologies Summit; Lombard, Illinois",
     41.8864687,
     -88.0201536
-  ],
-  [
-    "American Coatings Show and Conference 2026<br />American Coatings Show and Conference; Indianapolis, Indiana",
-    39.7683331,
-    -86.1583502
   ],
   [
     "Coatings Trends & Technologies Summit 2026<br />Coatings Trends & Technologies Summit; Lombard, Illinois",
