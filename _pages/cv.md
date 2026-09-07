@@ -77,4 +77,4 @@ Invited session moderator at the **Coatings Trends & Technologies Summit 2025**.
 
 Additional details on my research experience, publications, technical expertise, awards, and professional activities are available upon request.
 
-[**Request Full CV by Email**](mailto:YOUR_EMAIL_ADDRESS?subject=CV%20Request%20-%20Utsav%20Kumar%20Dey)
+[**Request Full CV by Email**](mailto:utsav@iastate.edu)
