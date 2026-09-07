@@ -407,6 +407,102 @@ html[data-theme="dark"]
   color: #60a5fa;
 }
 
+/* ==========================================================================
+   PRESENTATIONS — VIOLET CARD STYLE
+   ========================================================================== */
+
+.archive__item:has(a[href*="/talks/"]) {
+  border-left: 4px solid #7c3aed;
+  border-radius: 8px;
+  padding: 0.9rem 1.05rem;
+  margin-bottom: 0.85rem;
+  background: transparent;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    background-color 0.22s ease;
+}
+
+.archive__item:has(a[href*="/talks/"]):hover {
+  transform: translateY(-3px);
+  background: rgba(124, 58, 237, 0.04);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.10);
+}
+
+.archive__item:has(a[href*="/talks/"]) .archive__item-title a {
+  color: #7c3aed;
+}
+
+.archive__item:has(a[href*="/talks/"]) .archive__item-title a:hover {
+  color: #6d28d9;
+  text-decoration: none;
+}
+
+/* Dark mode */
+html[data-theme="dark"]
+.archive__item:has(a[href*="/talks/"]):hover {
+  background: rgba(167, 139, 250, 0.07);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"]
+.archive__item:has(a[href*="/talks/"]) .archive__item-title a {
+  color: #a78bfa;
+}
+
+html[data-theme="dark"]
+.archive__item:has(a[href*="/talks/"]) .archive__item-title a:hover {
+  color: #c4b5fd;
+}
+
+
+/* ==========================================================================
+   TEACHING — EMERALD CARD STYLE
+   ========================================================================== */
+
+.archive__item:has(a[href*="/teaching/"]) {
+  border-left: 4px solid #15803d;
+  border-radius: 8px;
+  padding: 0.9rem 1.05rem;
+  margin-bottom: 0.85rem;
+  background: transparent;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    background-color 0.22s ease;
+}
+
+.archive__item:has(a[href*="/teaching/"]):hover {
+  transform: translateY(-3px);
+  background: rgba(21, 128, 61, 0.04);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.10);
+}
+
+.archive__item:has(a[href*="/teaching/"]) .archive__item-title a {
+  color: #15803d;
+}
+
+.archive__item:has(a[href*="/teaching/"]) .archive__item-title a:hover {
+  color: #166534;
+  text-decoration: none;
+}
+
+/* Dark mode */
+html[data-theme="dark"]
+.archive__item:has(a[href*="/teaching/"]):hover {
+  background: rgba(74, 222, 128, 0.07);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"]
+.archive__item:has(a[href*="/teaching/"]) .archive__item-title a {
+  color: #4ade80;
+}
+
+html[data-theme="dark"]
+.archive__item:has(a[href*="/teaching/"]) .archive__item-title a:hover {
+  color: #86efac;
+}
 html[data-theme="dark"]
 .archive__item:has(a[href*="/publication/"]) .archive__item-title a:hover {
   color: #93c5fd;
