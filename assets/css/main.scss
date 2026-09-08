@@ -46,25 +46,6 @@
    CUSTOM SITE ACCENTS
    ========================================================================== */
 
-/* ---------- Homepage section headings ---------- */
-
-.page__content h2 {
-  position: relative;
-  padding-left: 14px;
-  margin-top: 2rem;
-}
-
-.page__content h2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.18em;
-  bottom: 0.18em;
-  width: 4px;
-  border-radius: 3px;
-  background: #0f8b8d;
-}
-
 /* ---------- Homepage technical-interest accents ---------- */
 
 .page__content ul li {
@@ -150,17 +131,6 @@ body .archive__item:has(a[href*="/teaching/"]) {
 
 html[data-theme="dark"] .archive__item:hover {
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.35);
-}
-
-/* Section headings */
-.page__content h2 {
-  border-bottom: 1px solid var(--global-border-color);
-  padding-bottom: 0.35rem;
-}
-
-/* Selected Highlights */
-.page__content h2:nth-of-type(2)::before {
-  background: #ca8a04;
 }
 
 /* Stronger archive hover interaction */
@@ -336,34 +306,6 @@ html[data-theme="dark"] .author__urls li a:hover {
 html[data-theme="dark"] .author__urls li a:hover i,
 html[data-theme="dark"] .author__urls li a:hover svg {
   color: #5eead4;
-}
-
-/* ==========================================================================
-   SIDEBAR — ALIGN NON-LINK ROWS
-   ========================================================================== */
-
-/* Give location/employer rows the same dimensions as linked rows */
-.author__urls li {
-  min-height: 35px;
-  margin-bottom: 0.38rem;
-  display: flex;
-  align-items: center;
-}
-
-/* Links still occupy the full row */
-.author__urls li a {
-  width: 100%;
-}
-
-/* Align icons in non-link rows with icons in linked rows */
-.author__urls li > i,
-.author__urls li > svg {
-  flex: 0 0 21px;
-  width: 21px;
-  min-width: 21px;
-  margin-right: 0.55rem;
-  font-size: 1.12rem;
-  text-align: center;
 }
 
 /* ==========================================================================
@@ -936,29 +878,46 @@ html[data-theme="dark"] .greedy-nav button:hover {
    ========================================================================== */
 
 /* Research & Technical Interests */
-.page__content h2:nth-of-type(1) {
+.page__content > h2:nth-of-type(1) {
   color: #0f766e;
   background: rgba(13, 148, 136, 0.07);
+
+  border: none;
   border-left: 4px solid #0d9488;
-  border-bottom: none;
 
   padding: 0.48rem 0.75rem;
   border-radius: 0 6px 6px 0;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 /* Selected Highlights */
-.page__content h2:nth-of-type(2) {
+.page__content > h2:nth-of-type(2) {
   color: #b45309;
   background: rgba(217, 119, 6, 0.07);
+
+  border: none;
   border-left: 4px solid #d97706;
-  border-bottom: none;
 
   padding: 0.48rem 0.75rem;
   border-radius: 0 6px 6px 0;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Subtle heading interaction */
+.page__content > h2:nth-of-type(1):hover,
+.page__content > h2:nth-of-type(2):hover {
+  transform: translateX(3px);
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.06);
 }
 
 
@@ -966,14 +925,19 @@ html[data-theme="dark"] .greedy-nav button:hover {
    ABOUT PAGE — DARK MODE
    ========================================================================== */
 
-html[data-theme="dark"] .page__content h2:nth-of-type(1) {
+html[data-theme="dark"] .page__content > h2:nth-of-type(1) {
   color: #5eead4;
   background: rgba(45, 212, 191, 0.09);
   border-left-color: #2dd4bf;
 }
 
-html[data-theme="dark"] .page__content h2:nth-of-type(2) {
+html[data-theme="dark"] .page__content > h2:nth-of-type(2) {
   color: #fbbf24;
   background: rgba(251, 191, 36, 0.09);
   border-left-color: #f59e0b;
+}
+
+html[data-theme="dark"] .page__content > h2:nth-of-type(1):hover,
+html[data-theme="dark"] .page__content > h2:nth-of-type(2):hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
 }
