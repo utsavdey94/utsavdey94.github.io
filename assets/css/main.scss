@@ -879,12 +879,18 @@ html[data-theme="dark"] .greedy-nav button:hover {
 }
 
 /* ==========================================================================
-   MAIN CONTENT — MORE SPACE FROM SIDEBAR
+   DESKTOP — MORE SPACE BETWEEN SIDEBAR AND MAIN CONTENT
    ========================================================================== */
 
 @media screen and (min-width: 1024px) {
-  .page,
-  .archive {
-    padding-left: 3rem;
+
+  /* Regular pages: About, CV, etc. */
+  #main .page__inner-wrap {
+    margin-left: 2.25rem;
+  }
+
+  /* Archive pages: Publications, Presentations, Teaching */
+  #main .archive {
+    margin-left: 2.25rem;
   }
 }
