@@ -886,11 +886,47 @@ html[data-theme="dark"] .greedy-nav button:hover {
 
   /* Regular pages: About, CV, etc. */
   #main .page__inner-wrap {
-    margin-left: 3.25rem;
+    margin-left: 2.75rem;
   }
 
   /* Archive pages: Publications, Presentations, Teaching */
   #main .archive {
-    margin-left: 3.25rem;
+    margin-left: 2.75rem;
   }
+}
+
+/* ==========================================================================
+   SIDEBAR — TYPOGRAPHY SIZE REFINEMENT
+   ========================================================================== */
+
+/* Name */
+.author__name {
+  font-size: 1.12rem !important;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.45rem;
+}
+
+/* Short professional bio */
+.author__bio {
+  font-size: 0.93rem !important;
+  line-height: 1.5;
+  margin-top: 0.35rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Location and employer */
+.author__content .author__urls-wrapper > ul > li:first-child,
+.author__content .author__urls-wrapper > ul > li:nth-child(2) {
+  font-size: 0.92rem !important;
+}
+
+/* Keep their text comfortably readable */
+.author__urls li {
+  font-size: 0.92rem;
+}
+
+/* Contact/social links can be slightly larger too */
+.author__urls a {
+  font-size: 0.92rem !important;
 }
