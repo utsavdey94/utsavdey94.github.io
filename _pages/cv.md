@@ -8,6 +8,8 @@ redirect_from:
   - /resume
 ---
 
+<div id="cv-content" markdown="1">
+
 ## Professional Summary
 
 Materials scientist with a Ph.D. in Materials Science and Engineering and more than nine years of research experience spanning polymer science, functional coatings, thin films, semiconductor processing, electrochemistry, and advanced materials. Experienced in materials synthesis, process development, advanced characterization, scale-up, troubleshooting, and establishing structure-property relationships across academic, industrial, and translational R&D environments.
@@ -79,3 +81,5 @@ Invited session moderator at the **Coatings Trends & Technologies Summit 2025**.
 Additional details on my research experience, publications, technical expertise, awards, and professional activities are available upon request.
 
 [**Request Full CV by Email**](mailto:utsav@iastate.edu)
+
+</div>
