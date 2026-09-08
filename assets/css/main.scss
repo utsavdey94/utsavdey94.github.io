@@ -877,3 +877,14 @@ html[data-theme="dark"] .greedy-nav .site-title:hover {
 html[data-theme="dark"] .greedy-nav button:hover {
   background: rgba(94, 234, 212, 0.10);
 }
+
+/* ==========================================================================
+   MAIN CONTENT — MORE SPACE FROM SIDEBAR
+   ========================================================================== */
+
+@media screen and (min-width: 1024px) {
+  .page,
+  .archive {
+    padding-left: 2rem;
+  }
+}
