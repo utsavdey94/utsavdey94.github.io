@@ -972,3 +972,21 @@ html[data-theme="dark"] .page__content > h2:nth-of-type(2):hover {
   font-size: 0.96rem !important;
   line-height: 1.5 !important;
 }
+
+/* ==========================================================================
+   SIDEBAR — PROFILE PHOTO SIZE
+   ========================================================================== */
+
+@media screen and (min-width: 1024px) {
+  .author__avatar img {
+    width: 160px !important;
+    height: 160px !important;
+    max-width: 160px !important;
+    object-fit: cover;
+  }
+
+  .author__avatar {
+    width: 160px !important;
+    height: 160px !important;
+  }
+}
