@@ -224,15 +224,15 @@ html[data-theme="dark"] .archive__item:hover {
 }
 
 /* ==========================================================================
-   SIDEBAR — FINAL POLISHED LAYOUT
+   SIDEBAR — CONSISTENT ROW ALIGNMENT
    ========================================================================== */
 
 /* Bio under profile name */
 .author__bio {
-  font-size: 0.96rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin-top: 0.45rem;
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.95rem;
 }
 
 /* Sidebar list */
@@ -240,27 +240,32 @@ html[data-theme="dark"] .archive__item:hover {
   margin-top: 0.9rem;
 }
 
-/* Every row gets identical height/alignment */
+/* Every sidebar row uses the same grid */
 .author__urls li {
-  min-height: 38px;
-  margin-bottom: 0.32rem;
-
-  display: flex;
+  display: grid;
+  grid-template-columns: 26px 1fr;
   align-items: center;
+  column-gap: 0.6rem;
+
+  min-height: 39px;
+  margin-bottom: 0.34rem;
 }
 
-/* Linked rows */
-.author__urls a {
-  display: flex;
-  align-items: center;
-  width: 100%;
+/* Linked items span both grid columns internally */
+.author__urls li a {
+  grid-column: 1 / -1;
 
-  gap: 0.6rem;
-  min-height: 38px;
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  align-items: center;
+  column-gap: 0.6rem;
+
+  min-height: 39px;
+  width: 100%;
   padding: 0.34rem 0.4rem;
   border-radius: 7px;
 
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   font-weight: 500;
   line-height: 1.2;
 
@@ -270,37 +275,32 @@ html[data-theme="dark"] .archive__item:hover {
     transform 0.2s ease;
 }
 
-/* ALL icons — linked and non-linked */
-.author__urls i,
-.author__urls svg {
-  flex: 0 0 24px;
-  width: 24px;
-  min-width: 24px;
-
-  font-size: 1.22rem;
+/* All sidebar icons */
+.author__urls li > i,
+.author__urls li > svg,
+.author__urls li a i,
+.author__urls li a svg {
+  width: 26px;
+  min-width: 26px;
+  font-size: 1.28rem;
   text-align: center;
+  justify-self: center;
 
   transition:
     transform 0.2s ease,
     color 0.2s ease;
 }
 
-/* Non-link rows such as location / employer */
-.author__urls li > i,
-.author__urls li > svg {
-  margin-right: 0.6rem;
-}
-
 /* Hover interaction */
-.author__urls a:hover {
+.author__urls li a:hover {
   color: #0f8b8d;
   background: rgba(15, 139, 141, 0.07);
   transform: translateX(4px);
   text-decoration: none;
 }
 
-.author__urls a:hover i,
-.author__urls a:hover svg {
+.author__urls li a:hover i,
+.author__urls li a:hover svg {
   color: #0f8b8d;
   transform: scale(1.16);
 }
@@ -328,13 +328,13 @@ html[data-theme="dark"] .archive__item:hover {
    SIDEBAR — DARK MODE
    ========================================================================== */
 
-html[data-theme="dark"] .author__urls a:hover {
+html[data-theme="dark"] .author__urls li a:hover {
   color: #5eead4;
   background: rgba(94, 234, 212, 0.08);
 }
 
-html[data-theme="dark"] .author__urls a:hover i,
-html[data-theme="dark"] .author__urls a:hover svg {
+html[data-theme="dark"] .author__urls li a:hover i,
+html[data-theme="dark"] .author__urls li a:hover svg {
   color: #5eead4;
 }
 
