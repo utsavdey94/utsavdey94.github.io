@@ -319,6 +319,34 @@ html[data-theme="dark"] .author__urls a:hover svg {
 }
 
 /* ==========================================================================
+   SIDEBAR — ALIGN NON-LINK ROWS
+   ========================================================================== */
+
+/* Give location/employer rows the same dimensions as linked rows */
+.author__urls li {
+  min-height: 35px;
+  margin-bottom: 0.38rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Links still occupy the full row */
+.author__urls li a {
+  width: 100%;
+}
+
+/* Align icons in non-link rows with icons in linked rows */
+.author__urls li > i,
+.author__urls li > svg {
+  flex: 0 0 21px;
+  width: 21px;
+  min-width: 21px;
+  margin-right: 0.55rem;
+  font-size: 1.12rem;
+  text-align: center;
+}
+
+/* ==========================================================================
    PUBLICATIONS — MODERN CARD STYLE
    ========================================================================== */
 
