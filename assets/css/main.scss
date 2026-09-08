@@ -974,19 +974,44 @@ html[data-theme="dark"] .page__content > h2:nth-of-type(2):hover {
 }
 
 /* ==========================================================================
-   SIDEBAR — PROFILE PHOTO SIZE
+   SIDEBAR — PROFILE PHOTO
    ========================================================================== */
 
 @media screen and (min-width: 1024px) {
-  .author__avatar img {
-    width: 160px !important;
-    height: 160px !important;
-    max-width: 160px !important;
-    object-fit: cover;
-  }
 
   .author__avatar {
-    width: 160px !important;
-    height: 160px !important;
+    width: 155px !important;
+    height: 155px !important;
+    margin-bottom: 0.8rem;
   }
+
+  .author__avatar img {
+    display: block;
+    width: 155px !important;
+    height: 155px !important;
+    max-width: none !important;
+
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+    border-radius: 50% !important;
+    border: 3px solid var(--global-border-color);
+
+    transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease,
+      border-color 0.25s ease;
+  }
+
+  .author__avatar img:hover {
+    transform: scale(1.045);
+    border-color: #0f9d9a;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.16);
+  }
+}
+
+/* Dark mode */
+html[data-theme="dark"] .author__avatar img:hover {
+  border-color: #5eead4;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
