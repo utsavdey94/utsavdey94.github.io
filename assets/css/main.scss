@@ -941,3 +941,27 @@ html[data-theme="dark"] .page__content > h2:nth-of-type(1):hover,
 html[data-theme="dark"] .page__content > h2:nth-of-type(2):hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
 }
+
+/* ==========================================================================
+   PRESENTATIONS PAGE — SPACING & TYPOGRAPHY
+   ========================================================================== */
+
+@media screen and (min-width: 1024px) {
+
+  /* Push the presentations content farther from the sidebar */
+  .archive:has(.archive__item a[href*="/talks/"]) {
+    margin-left: 5rem;
+  }
+}
+
+/* Make presentation metadata easier to read */
+.archive__item:has(a[href*="/talks/"]) p {
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+
+/* Date line */
+.archive__item:has(a[href*="/talks/"]) .page__date {
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
