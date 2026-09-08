@@ -146,69 +146,10 @@ body .archive__item:has(a[href*="/teaching/"]) {
   color: #0f8b8d;
 }
 
-/* ---------- Profile image ---------- */
-
-.author__avatar img {
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
-}
-
-.author__avatar img:hover {
-  transform: scale(1.035);
-  box-shadow: 0 7px 20px rgba(15, 23, 42, 0.16);
-}
-
-/* ---------- Sidebar links ---------- */
-
-.author__urls a {
-  transition:
-    color 0.2s ease,
-    transform 0.2s ease;
-}
-
-.author__urls a:hover {
-  color: #0f8b8d;
-  transform: translateX(3px);
-}
-
 /* ---------- Dark mode refinements ---------- */
 
 html[data-theme="dark"] .archive__item:hover {
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.35);
-}
-
-/* ==========================================================================
-   PAGE-SPECIFIC ACCENTS
-   ========================================================================== */
-
-/* About */
-body:has(a[href="/"].active),
-body:has(.page__title:nth-child(1)) {
-  --page-accent: #0f8b8d;
-}
-
-/* Publications */
-body:has(a[href="/publications/"]) .page__title,
-body:has(a[href="/publications/"]) .archive__item-title a {
-  color: #2563eb;
-}
-
-/* Presentations */
-body:has(a[href="/talks/"]) .page__title,
-body:has(a[href="/talks/"]) .archive__item-title a {
-  color: #7c3aed;
-}
-
-/* Teaching */
-body:has(a[href="/teaching/"]) .page__title,
-body:has(a[href="/teaching/"]) .archive__item-title a {
-  color: #15803d;
-}
-
-/* CV */
-body:has(a[href="/cv/"]) .page__title {
-  color: #c2410c;
 }
 
 /* Section headings */
@@ -319,6 +260,11 @@ body:has(a[href="/cv/"]) .page__title {
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.035);
+  box-shadow: 0 7px 20px rgba(15, 23, 42, 0.16);
 }
 
 /* ==========================================================================
@@ -506,6 +452,15 @@ html[data-theme="dark"]
 html[data-theme="dark"]
 .archive__item:has(a[href*="/publication/"]) .archive__item-title a:hover {
   color: #93c5fd;
+}
+
+/* CV main page title */
+body:has(#cv-content) .page__title {
+  color: #c2410c;
+}
+
+html[data-theme="dark"] body:has(#cv-content) .page__title {
+  color: #fb923c;
 }
 
 /* ==========================================================================
