@@ -2,41 +2,78 @@
 permalink: /
 title: "About"
 author_profile: true
-classes: about-page
+classes: home-page
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="home-hero">
+<div class="portfolio-hero">
 
-<div class="home-hero__eyebrow">
-Materials Science · Semiconductor Processing · Advanced Materials
-</div>
+  <div class="portfolio-hero__label">
+    MATERIALS SCIENCE · SEMICONDUCTOR PROCESSING
+  </div>
 
-# Utsav Kumar Dey, Ph.D.
+  <h1>Utsav Kumar Dey, Ph.D.</h1>
 
-<div class="home-hero__role">
-Materials Scientist & Process Engineer
-</div>
+  <div class="portfolio-hero__title">
+    Materials Scientist & Process Engineer
+  </div>
 
-<div class="home-hero__specialties">
-Semiconductor Processing · Thin Films · Surface Engineering · Functional Materials
-</div>
+  <p class="portfolio-hero__tagline">
+    Bridging materials science with semiconductor fabrication, thin-film processing,
+    surface engineering, and manufacturing process development.
+  </p>
 
-<p class="home-hero__intro">
-I am a materials scientist with more than nine years of research and development experience spanning semiconductor fabrication, thin-film processing, functional coatings, polymer science, electrochemistry, and advanced materials characterization.
-</p>
+  <div class="portfolio-hero__skills">
+    <span>Semiconductor Fabrication</span>
+    <span>Thin Films</span>
+    <span>Wet Processing</span>
+    <span>DOE & SPC</span>
+    <span>Metrology</span>
+    <span>Process Scale-Up</span>
+  </div>
 
-<p class="home-hero__intro">
-My work focuses on connecting <strong>materials chemistry, process conditions, structure, and performance</strong> to solve technical problems in materials development, surface engineering, process optimization, and manufacturing scale-up.
-</p>
+  <div class="portfolio-hero__stats">
 
-<div class="home-hero__buttons">
-<a href="#research--technical-interests" class="hero-btn hero-btn--primary">Technical Expertise</a>
-<a href="/publications/" class="hero-btn">Publications</a>
-<a href="/cv/" class="hero-btn">CV</a>
-</div>
+    <div>
+      <strong>9+</strong>
+      <span>Years R&D</span>
+    </div>
+
+    <div>
+      <strong>15-Step</strong>
+      <span>CMOS Process</span>
+    </div>
+
+    <div>
+      <strong>Ph.D.</strong>
+      <span>Materials Science</span>
+    </div>
+
+    <div>
+      <strong>Patent</strong>
+      <span>Technology Development</span>
+    </div>
+
+  </div>
+
+  <div class="portfolio-hero__actions">
+    <a class="portfolio-btn portfolio-btn--primary"
+       href="#research--technical-interests">
+       Explore Expertise
+    </a>
+
+    <a class="portfolio-btn"
+       href="/publications/">
+       Publications
+    </a>
+
+    <a class="portfolio-btn"
+       href="/cv/">
+       View CV
+    </a>
+  </div>
 
 </div>
 
