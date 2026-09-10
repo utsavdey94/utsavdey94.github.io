@@ -8,11 +8,37 @@ redirect_from:
   - /about.html
 ---
 
-I am a materials scientist with a Ph.D. in Materials Science and Engineering from Iowa State University and more than nine years of research experience spanning polymer science, functional coatings, semiconductor processing, electrochemistry, and advanced materials.
+<div class="home-hero">
 
-My research focuses on understanding and engineering relationships between **materials chemistry, processing, structure, and performance**. My work has included functional polymeric nanoparticles, waterborne and omniphobic coatings, thin-film processing, semiconductor fabrication, electrochemical energy-storage materials, nanomaterials synthesis, and advanced materials characterization.
+<div class="home-hero__eyebrow">
+Materials Science · Semiconductor Processing · Advanced Materials
+</div>
 
-I currently work at Iowa State University on the development and scale-up of functional polymer systems for coating applications, including collaborations with Janas Materials Inc. My work involves polymer synthesis, formulation development, process optimization, scale-up, and troubleshooting across laboratory and pilot-scale manufacturing.
+# Utsav Kumar Dey, Ph.D.
+
+<div class="home-hero__role">
+Materials Scientist & Process Engineer
+</div>
+
+<div class="home-hero__specialties">
+Semiconductor Processing · Thin Films · Surface Engineering · Functional Materials
+</div>
+
+<p class="home-hero__intro">
+I am a materials scientist with more than nine years of research and development experience spanning semiconductor fabrication, thin-film processing, functional coatings, polymer science, electrochemistry, and advanced materials characterization.
+</p>
+
+<p class="home-hero__intro">
+My work focuses on connecting <strong>materials chemistry, process conditions, structure, and performance</strong> to solve technical problems in materials development, surface engineering, process optimization, and manufacturing scale-up.
+</p>
+
+<div class="home-hero__buttons">
+<a href="#research--technical-interests" class="hero-btn hero-btn--primary">Technical Expertise</a>
+<a href="/publications/" class="hero-btn">Publications</a>
+<a href="/cv/" class="hero-btn">CV</a>
+</div>
+
+</div>
 
 ## Research & Technical Interests
 
