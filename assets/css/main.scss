@@ -1015,3 +1015,139 @@ html[data-theme="dark"] .author__avatar img:hover {
   border-color: #5eead4;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
+
+/* ==========================================================================
+   HOMEPAGE — HERO
+   ========================================================================== */
+
+.home-hero {
+  margin-bottom: 2.2rem;
+  padding: 1.7rem 1.8rem 1.8rem;
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  border-radius: 12px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(15, 139, 141, 0.07),
+      rgba(37, 99, 235, 0.035)
+    );
+}
+
+.home-hero__eyebrow {
+  margin-bottom: 0.65rem;
+  color: #0f8b8d;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+.home-hero h1 {
+  margin: 0 0 0.28rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: var(--global-text-color);
+  font-size: 2rem;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.home-hero__role {
+  margin-bottom: 0.3rem;
+  color: #0f766e;
+  font-size: 1.22rem;
+  font-weight: 700;
+}
+
+.home-hero__specialties {
+  margin-bottom: 1.15rem;
+  color: var(--global-text-color-light);
+  font-size: 0.94rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home-hero__intro {
+  max-width: 760px;
+  margin-bottom: 0.75rem;
+  font-size: 0.97rem;
+  line-height: 1.65;
+}
+
+.home-hero__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.home-hero__buttons .hero-btn {
+  display: inline-block;
+  padding: 0.58rem 1rem;
+  border: 1px solid #0f8b8d;
+  border-radius: 7px;
+  color: #0f766e;
+  font-size: 0.87rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-hero__buttons .hero-btn:hover {
+  transform: translateY(-2px);
+  background: rgba(15, 139, 141, 0.08);
+  box-shadow: 0 5px 14px rgba(15, 23, 42, 0.08);
+}
+
+.home-hero__buttons .hero-btn--primary {
+  background: #0f8b8d;
+  color: #ffffff;
+}
+
+.home-hero__buttons .hero-btn--primary:hover {
+  background: #0f766e;
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .home-hero {
+  border-color: rgba(94, 234, 212, 0.16);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(45, 212, 191, 0.08),
+      rgba(56, 189, 248, 0.035)
+    );
+}
+
+html[data-theme="dark"] .home-hero__eyebrow,
+html[data-theme="dark"] .home-hero__role {
+  color: #5eead4;
+}
+
+html[data-theme="dark"] .home-hero__buttons .hero-btn {
+  border-color: #5eead4;
+  color: #5eead4;
+}
+
+html[data-theme="dark"] .home-hero__buttons .hero-btn--primary {
+  background: #0f766e;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .home-hero {
+    padding: 1.3rem 1.1rem;
+  }
+
+  .home-hero h1 {
+    font-size: 1.65rem;
+  }
+
+  .home-hero__role {
+    font-size: 1.08rem;
+  }
+}
