@@ -63,7 +63,8 @@ DOE, SPC, statistical analysis, process optimization, scale-up, troubleshooting,
 
 - Publications in *Small*, *Langmuir*, *Chemistry of Materials*, *ACS Applied Materials & Interfaces*, *Journal of Colloid and Interface Science*, and *Nanoscale*
 - Co-inventor on a U.S. provisional patent related to functional particle and coating technologies
-- MRS Best Poster Award
+- MRS Best Poster Award, ICMAT 2019, Singapore
+- 2nd Place, Student Presentation Competition, 2026 Coatings Trends \& Technologies (CTT) Summit
 - Iowa State University Graduate College Teaching Excellence Award
 - Sci-Mix selections at ACS Spring and Fall Meetings
 - Experience across academic research, industrial R&D, and translational materials development
