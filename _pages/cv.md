@@ -37,7 +37,7 @@ Research and development of functional polymer systems and coatings, including p
 Industrial R&D experience in formulation development and performance optimization of multipurpose surface-cleaning technologies, including surfactant selection, cleaning efficacy, pH optimization, and cost reduction.
 
 **Graduate Research — Iowa State University**  
-Research spanning polymeric Janus nanoparticles, antimicrobial and omniphobic coatings, thin-film materials, semiconductor processing, and structure–property relationships.
+Research spanning polymeric Janus nanoparticles, antimicrobial and omniphobic coatings, thin-film materials, semiconductor processing, and structure-property relationships.
 
 **Energy Materials Research**  
 Research experience in sodium- and lithium-ion battery materials, solid-state synthesis, electrochemical characterization, thermoelectric materials, and related functional inorganic systems.
