@@ -66,7 +66,7 @@ DOE, SPC, statistical analysis, process optimization, scale-up, troubleshooting,
 - MRS Best Poster Award, ICMAT 2019, Singapore
 - 2nd Place, Student Presentation Competition, 2026 Coatings Trends & Technologies (CTT) Summit
 - Iowa State University Graduate College Teaching Excellence Award
-- Sci-Mix selections at ACS Spring and Fall Meetings
+- Sci-Mix selections at ACS Spring and Fall Meetings, 2026
 - Experience across academic research, industrial R&D, and translational materials development
 - Peer reviewer for journals published by ACS, RSC, Wiley, Springer, and MDPI
 - Experience mentoring and instructing more than 500 undergraduate students
@@ -75,7 +75,7 @@ DOE, SPC, statistical analysis, process optimization, scale-up, troubleshooting,
 
 Peer reviewer for scientific journals including *ACS Omega*, *Langmuir*, *Nanoscale Horizons*, *Analyst*, *ChemPhysChem*, *Journal of Coatings Technology and Research*, *Polymers*, *Molecules*, *Sensors*, and *MRS Communications*.
 
-Invited session moderator at the **Coatings Trends & Technologies Summit 2025**.
+Invited session moderator at the **Coatings Trends & Technologies Summit 2025 and 2026**.
 
 ## Full Curriculum Vitae
 
